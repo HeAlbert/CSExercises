@@ -10,7 +10,9 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("Pls enter an integer: ");
+            int iNumber = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The square of the number is : {0} .", iNumber*iNumber);
         }
     }
 }
