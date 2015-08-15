@@ -10,7 +10,14 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            double dSalary, dHouseAllowance, dTransAllowance;
+            double dTotalIncome = 0;
+            Console.WriteLine("Pls input your Salary: ");
+            dSalary = Convert.ToDouble(Console.ReadLine());
+            dHouseAllowance = 0.1 * dSalary;
+            dTransAllowance = 0.03 *dSalary;
+            dTotalIncome = dHouseAllowance + dSalary + dTransAllowance;
+            Console.WriteLine("Your Total income is:{0:C}", dTotalIncome);
         }
     }
 }

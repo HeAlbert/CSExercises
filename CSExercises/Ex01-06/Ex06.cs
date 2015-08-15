@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            int iNumber1;
+            Console.WriteLine("Pls input an integer:");
+            iNumber1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The sqaure root of the number is:{0}", Math.Sqrt(iNumber1));
         }
     }
 }
