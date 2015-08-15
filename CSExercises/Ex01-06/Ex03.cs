@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// caculate the square of double number
 namespace CSExercises
 {
     public class Ex03

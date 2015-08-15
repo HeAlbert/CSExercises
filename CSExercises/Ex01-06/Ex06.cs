@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// caculate the sqaure root of integer
 namespace CSExercises
 {
     public class Ex06

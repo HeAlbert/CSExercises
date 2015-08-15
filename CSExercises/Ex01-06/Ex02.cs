@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// caculate the square of integer
 namespace CSExercises
 {
     public class Ex02

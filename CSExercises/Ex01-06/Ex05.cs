@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* calculate the square root, which just have three decimal,  of double number */
 namespace CSExercises
 {
     public class Ex05
