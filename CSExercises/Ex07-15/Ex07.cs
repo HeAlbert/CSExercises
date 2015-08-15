@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// caculate the totalincome based on the salary
 namespace CSExercises
 {
     public class Ex07
