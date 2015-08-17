@@ -13,8 +13,8 @@ namespace CSExercises
         {
             double a, b, c, s, dArea ;
             Console.WriteLine("Pls input the length of three sides of your triangel\n ");
-            Console.WriteLine("PS:Make sure that the sum of two sides is bigger than the third one,");
-            Console.WriteLine("   The minus of two sides is shorter than the third one.\n");
+            Console.WriteLine("PS:Make sure that the sum of any two sides is bigger than the third one,");
+            Console.WriteLine("   The minus of any two sides is shorter than the third one.\n");
             Console.WriteLine("the first side:");
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("the second side:");

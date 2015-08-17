@@ -15,8 +15,7 @@ namespace CSExercises
             Console.WriteLine("Pls input the kilometres that customer travel:");
             dDistance = Convert.ToDouble(Console.ReadLine());
             dCharge = 2.40 + dDistance * 0.4;
-            string sCharge = Convert.ToString(dCharge);
-            Console.WriteLine("the taxi fee is :{0}", sCharge);
+            Console.WriteLine("the taxi fee is :{0}", dCharge);
 
         }
     }

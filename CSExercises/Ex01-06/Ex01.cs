@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// say goood morning to yourself
+// say goood morning to yourself.
 namespace CSExercises
 {
     public class Ex01
