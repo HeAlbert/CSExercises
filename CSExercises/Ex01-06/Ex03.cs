@@ -14,7 +14,7 @@ namespace CSExercises
             Console.WriteLine("Pls input a double Number: ");
             double dNumber = Convert.ToDouble(Console.ReadLine());
             double dNumbersq = dNumber * dNumber;
-            Console.WriteLine("the square of {0:.00} is :{1:.00} ", dNumber, dNumbersq );
+            Console.WriteLine("the square of {0:0.00} is :{1:0.00} ", dNumber, dNumbersq );
         }
     }
 }
